@@ -1,0 +1,11 @@
+main {
+    margin: 0 auto 0;
+    padding: 2em;
+  
+    @include media(">medium") {
+      width: 90%;
+    }
+    @include media("<large") {
+    }
+    
+  }

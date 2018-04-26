@@ -3,13 +3,13 @@
     display: none;
     position: absolute;
     background-color: rgba($color: #00353A, $alpha: 0.84);
-    width: 140%;
-    height: 38em;
+    width: 200%;
+    height: 14em;
     left: -10em;
     right: 0;
     top: -10em;
     z-index: -1;
-    transform: rotate(-4deg);
+    transform: rotate(-2deg);
 
     @include media(">medium") {
       display: block;
@@ -20,11 +20,11 @@
     @include media(">medium") {
       display: flex;
       align-items: center;
-      flex-direction: row;
     }
 
     .header-content__wrap {
       display: flex;
+
 
       .header-content__wrap--logo {
         max-width: 4em;
@@ -34,15 +34,6 @@
         margin: .1em 0 0 .5em;
         text-transform: uppercase;
         font-weight: 600;
-      }
-    }
-    .header-content__nav--title {
-      text-transform: uppercase;
-      font-weight: 500;
-    }
-    .header-content--page-title {
-      @include media(">medium") {
-        margin: .1em 0 0 2em;
       }
     }
   }
