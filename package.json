@@ -1,0 +1,29 @@
+{
+  "name": "arena",
+  "version": "1.0.0",
+  "description": "www.soccerspots.com",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp serve",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SportySpots/arena.git"
+  },
+  "author": "Tom Klaver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SportySpots/arena/issues"
+  },
+  "homepage": "https://github.com/SportySpots/arena#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.6",
+    "browser-sync": "^2.18.13",
+    "cssnano": "^3.10.0",
+    "gulp": "^3.9.1",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  color: #ffffff;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+
+.toggle {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
+
+.mobile {
+  display: none;
+}
+
+.no-mobile {
+  display: block;
+}
+
+.container.mobile {
+  padding: 0;
+
+  > div {
+    padding: 1em;
+    height: 100%;
+  }
+
+  > div:nth-child(even) {
+    background-color: $color_dark_green;
+  }
+
+  > div:nth-child(odd) {
+    background-color: $color_green;
+  }
+}
+
+.logo {
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  padding: 0.6em;
+}
+
+.brand {
+  text-align: center;
+}
+
+.company-info h3 {
+  text-align: center;
+  margin: 0;
+}

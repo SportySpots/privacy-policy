@@ -1,0 +1,19 @@
+// Vendor imports
+@import 'vendor/grid';
+@import 'vendor/include-media';
+
+//Base imports
+
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/typography';
+
+// Page elements
+
+@import 'elements/global';
+@import 'elements/header';
+@import 'elements/form';
+@import 'elements/footer';
+
+// Old styling
+@import 'base/old';

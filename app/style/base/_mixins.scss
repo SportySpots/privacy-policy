@@ -1,0 +1,21 @@
+@mixin bp( $type, $first:0, $second:0 ) {
+
+    @if( $type == minMax ){
+        @media only screen and ( max-width: $first ) and ( min-width: $second ){
+            @content;
+        }
+    }
+
+    @if( $type == min ){
+        @media only screen and ( min-width: $first ){
+            @content;
+        }
+    }
+
+    @if( $type == max ){
+        @media only screen and ( max-width: $first ){
+            @content;
+        }
+    }
+
+}
